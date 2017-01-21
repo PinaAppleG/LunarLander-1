@@ -69,12 +69,9 @@ for i_episode in range(max_episodes):
         for i in range(action_time_step_range):
             observation, reward, done, info = env.step(action)
             time_step += 1
-
             episode_reward += reward
-
             agent.store_in_replay(old_observation, action, reward, observation,
                                   done)
-
             if done:
                 break
 
