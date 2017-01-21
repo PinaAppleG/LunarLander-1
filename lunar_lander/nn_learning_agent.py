@@ -121,7 +121,7 @@ class LearningAgent:
         """
         Set epsilon to zero, the agent will now always attempt to maximize its
         reward, rather than performing epsilon greedy exploration.
-        :return:
+        :return: None
         """
         self.eps = 0
         self.min_eps = 0
