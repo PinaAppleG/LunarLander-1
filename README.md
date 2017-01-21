@@ -1,8 +1,8 @@
-# lunar_lander
-# Description
+# Lunar Lander
+## Description
 This projects goal was to implement a smart agent to learn OpenAI Gym's
 lunar lander environment, such that it can consistently land within the
-designated zone. The agent use an on policy Q-Learning on top of a
+designated zone. The agent uses on policy Q-Learning on top of a
 neural network that trains on experience replay. 
 
 ## Project structure
@@ -22,3 +22,7 @@ neural network that trains on experience replay.
 which is currently set to False, as well as use a different api_key if you plan to upload to OpenAI
 
 4. Some results are printed to standard output after 100 episodes.
+
+5. If `record` is set to True, the results will be uploaded to OpenAI, 
+and the url will be printed to standard out. Currently the agent is set 
+to train for 25,000 episodes which can take several hours.
