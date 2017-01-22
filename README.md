@@ -6,7 +6,7 @@ designated zone. The agent uses on policy Q-Learning on top of a
 neural network that trains on experience replay. 
 
 ## Project structure
-* lunar_lander
+* LunarLander
     * lunar_lander
         * nn_learning_agent.py
     * main.py
