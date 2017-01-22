@@ -26,3 +26,5 @@ which is currently set to False, as well as use a different api_key if you plan 
 5. If `record` is set to True, the results will be uploaded to OpenAI, 
 and the url will be printed to standard out. Currently the agent is set 
 to train for 25,000 episodes which can take several hours.
+
+6. Results that I recently uploaded can be found here. https://gym.openai.com/evaluations/eval_SpmmaCg7QEqeU47M8kkkw

@@ -18,7 +18,7 @@ key = 'sk_WqHacrBQcaSmyTwOqpLtg'
 # Init Lunar Lander Gym
 env = gym.make('LunarLander-v2')
 if record:
-    env.monitor.start(recording_file, force=True, video_callable=True)
+    env.monitor.start(recording_file, force=True)
 env.reset()
 
 # Agent
@@ -38,7 +38,7 @@ freeze_at = 100
 # Agent is consider trained and should stop additional learning once the average
 # reward over the last 100 episodes exceeds the stop_at value.
 stop = False
-stop_at = 170
+stop_at = 185
 
 # Begin running gym episodes
 for i_episode in range(max_episodes):
